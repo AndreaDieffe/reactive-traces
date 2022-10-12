@@ -1,0 +1,14 @@
+[build-system]
+requires = ["flit_core>=3.2"]
+build-backend = "flit_core.buildapi"
+
+[project]
+name = "reactive-traces"
+version = "0.0.1"
+authors = [
+  { name="andrea_df"}, {name="robin_de_schepper"}
+]
+description = "reactive traces for beginners"
+
+[tool.flit.module]
+name = "rxt"
